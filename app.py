@@ -77,7 +77,7 @@ def webhook():
                             'Received a new message from %s with '
                             'contents %s' % (msg['sender']['id'],
                                              msg['message']['text']))
-        return 200
+        return 'OK', 200
 
 
 if __name__ == '__main__':
